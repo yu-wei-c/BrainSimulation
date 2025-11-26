@@ -47,7 +47,7 @@ A more detailed description of the data structure, file formats, and suggested l
   <img src="SpreadingDynamics/Tau_CA.gif" alt="Cross-sectional tau pathology across diagnostic groups" width="48%">
 </p>
 
-> **Cross-sectional pathology patterns.**  
+> **Example cross-sectional pathology patterns.**  
 > These animations illustrate how amyloid (left) and tau (right) standardized uptake value ratio (SUVR) patterns change across diagnostic groups, from cognitively normal (CN) individuals without amyloid pathology to mild cognitive impairment (MCI) and Alzheimer’s disease (AD) with pathology. Together, they provide a compact visual summary of the typical AD spectrum used in this project.
 
 ---
@@ -81,7 +81,7 @@ A more detailed description of the data structure, file formats, and suggested l
   <img src="NetworkModelling/individual_functional_network.jpg" alt="Example functional brain network from the same healthy individual" width="48%">
 </p>
 
-> **Example subject-level data.**  
+> **Example subject-level brain networks.**  
 > These figures show an example **structural network** (left) and **functional network** (right) from the same healthy individual, illustrating how the empirical connectivity used in Project T looks in practice.
 
 ---
