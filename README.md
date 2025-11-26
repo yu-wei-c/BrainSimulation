@@ -100,12 +100,10 @@ The precise simulation tasks, model assumptions, and evaluation criteria are def
 
 ## Data provenance and usage restrictions
 
-The data are provided by **Yu-Wei Chang**  
-(University of Gothenburg, Department of Physics)  
-<https://www.gu.se/en/about/find-staff/yu-weichang>
+The data are provided by 
 
-with generous support from:
-
+- **Yu-Wei Chang (the TA)** – University of Gothenburg, Department of Physics
+  <https://www.gu.se/en/about/find-staff/yu-weichang>
 - **Mite Mijalkov** – Karolinska Institutet, Department of Clinical Neuroscience  
   <https://ki.se/en/people/mite-mijalkov>
 - **Jiawei Sun** – Karolinska Institutet, Department of Clinical Neuroscience  
