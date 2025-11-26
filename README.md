@@ -104,9 +104,9 @@ The data are provided by
 
 - **Yu-Wei Chang (the corresponding TA)** – University of Gothenburg, Department of Physics
   <https://www.gu.se/en/about/find-staff/yu-weichang>
-- **Mite Mijalkov** – Karolinska Institutet, Department of Clinical Neuroscience  
+- **Dr. Mite Mijalkov** – Karolinska Institutet, Department of Clinical Neuroscience  
   <https://ki.se/en/people/mite-mijalkov>
-- **Jiawei Sun** – Karolinska Institutet, Department of Clinical Neuroscience  
+- **Mr. Jiawei Sun** – Karolinska Institutet, Department of Clinical Neuroscience  
   <https://ki.se/en/people/jiawei-sun>  
 
 Both collaborators are members of **Dr. Joana B. Pereira’s** group  
