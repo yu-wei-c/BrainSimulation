@@ -8,7 +8,7 @@ It is designed as a teaching resource for:
 > **FFR120 / FYM119 – Simulation of Complex Systems, lp2 HT25 (7.5 hp)**  
 > Project work supervised by TA **Yu-Wei Chang**
 
-This distribution uses the **BRAPH 2 standard distribution** to visualise the data.  
+This distribution uses the BRAPH 2 standard distribution (included in this repository in the `braph2/` folder) to visualise the data, as illustrated in the figures below.
 For a general introduction to BRAPH 2, please refer to the main BRAPH 2 repository and tutorials.
 
 ---
