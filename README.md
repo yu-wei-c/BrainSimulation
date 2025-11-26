@@ -19,6 +19,14 @@ The distribution is organised into two main project folders, each corresponding 
 
 ### Project J – Spreading Dynamics in Brain Networks
 
+<p align="center">
+  <img src="SpreadingDynamics/Amyloid_CA.gif" alt="Cross-sectional amyloid pathology across diagnostic groups" width="48%">
+  <img src="SpreadingDynamics/Tau_CA.gif" alt="Cross-sectional tau pathology across diagnostic groups" width="48%">
+</p>
+
+> **Example cross-sectional pathology patterns.**  
+> These animations illustrate how amyloid (left) and tau (right) standardized uptake value ratio (SUVR) patterns change across diagnostic groups, from cognitively normal (CN) individuals without amyloid pathology to mild cognitive impairment (MCI) and Alzheimer’s disease (AD) with pathology. Together, they provide a compact visual summary of the typical AD spectrum used in this project.
+
 **Folder:** `SpreadingDynamics/`
 
 Project J focuses on modelling how pathological protein aggregates spread over brain networks.
@@ -42,17 +50,17 @@ A more detailed description of the data structure, file formats, and suggested l
 
 - `SpreadingDynamics/README.md`
 
-<p align="center">
-  <img src="SpreadingDynamics/Amyloid_CA.gif" alt="Cross-sectional amyloid pathology across diagnostic groups" width="48%">
-  <img src="SpreadingDynamics/Tau_CA.gif" alt="Cross-sectional tau pathology across diagnostic groups" width="48%">
-</p>
-
-> **Example cross-sectional pathology patterns.**  
-> These animations illustrate how amyloid (left) and tau (right) standardized uptake value ratio (SUVR) patterns change across diagnostic groups, from cognitively normal (CN) individuals without amyloid pathology to mild cognitive impairment (MCI) and Alzheimer’s disease (AD) with pathology. Together, they provide a compact visual summary of the typical AD spectrum used in this project.
-
 ---
 
 ### Project T – Brain Network Modelling
+
+<p align="center">
+  <img src="NetworkModelling/individual_structural_network.jpg" alt="Example structural brain network from a healthy individual" width="48%">
+  <img src="NetworkModelling/individual_functional_network.jpg" alt="Example functional brain network from the same healthy individual" width="48%">
+</p>
+
+> **Example subject-level brain networks.**  
+> These figures show an example **structural network** (left) and **functional network** (right) from the same healthy individual, illustrating how the empirical connectivity used in Project T looks in practice.
 
 **Folder:** `NetworkModelling/`
 
@@ -75,14 +83,6 @@ Within `NetworkModelling/`, the following data are provided:
 A more detailed description of the data structure, file formats, and suggested loading routines can be found in the project-specific documentation:
 
 - `NetworkModelling/README.md`
-
-<p align="center">
-  <img src="NetworkModelling/individual_structural_network.jpg" alt="Example structural brain network from a healthy individual" width="48%">
-  <img src="NetworkModelling/individual_functional_network.jpg" alt="Example functional brain network from the same healthy individual" width="48%">
-</p>
-
-> **Example subject-level brain networks.**  
-> These figures show an example **structural network** (left) and **functional network** (right) from the same healthy individual, illustrating how the empirical connectivity used in Project T looks in practice.
 
 ---
 
