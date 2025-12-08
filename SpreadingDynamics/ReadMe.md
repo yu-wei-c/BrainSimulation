@@ -154,6 +154,8 @@ A typical modelling workflow for this project could be:
 
 ### Braak stage cut-offs and starting regions (optional)
 
+Braak stage is a six-level system that describes how tau pathology spreads through the brain over the course of Alzheimer’s disease, based on which brain regions are affected in post-mortem studies, and you can use this system to classify subjects or regions into “earlier” or “later” disease stages.
+
 To keep things simple, you do **not** need to invent your own Braak scheme from scratch.  
 You can use published work as a guide:
 
