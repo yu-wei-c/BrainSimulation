@@ -69,7 +69,7 @@ NetworkModelling/
 
 - **Folder:** `NetworkModelling/data/fMRI/`
 - **Content:**
-  - Empirical functional data for the same set of 246 regions, organised by subject.
+  - Empirical functional data for the same set of 246 regions, organised by subject (they are matching the structural connectivity).
   - Depending on the file format, this may be:
     - Region-wise time series, and/or
     - Pre-computed functional connectivity matrices (e.g. correlation networks).
@@ -81,15 +81,37 @@ NetworkModelling/
     - Simulated vs empirical time series statistics, or
     - Simulated vs empirical functional connectivity (e.g. correlation or coherence).
 
+### Units and scaling
+
+Here we summarise the unit conventions used in the provided data.
+
+#### Structural connectivity (DTI)
+
+In the `.xlsx` files in the `DTI` folder, the values in the structural network are **unitless** and bounded between **0** and **1**.
+
+- Each edge weight is the **mean fractional anisotropy (FA)** along all streamlines connecting two brain regions.
+- FA quantifies how directional the diffusion of water molecules is in white matter:
+  - **0** means completely isotropic diffusion (equally in all directions).
+  - **1** means perfectly anisotropic diffusion (diffusion only along one axis).
+
+In other words, higher values in the structural network can be interpreted as a **stronger and more coherent white-matter pathway** between two regions.
+
+#### Functional data (fMRI)
+
+In the `.xlsx` files in the `fMRI` folder, the time-series matrices contain the **BOLD signal averaged within each region** and **z-scored across time** (unitless; mean 0 and standard deviation 1 per region).
+
+- Each value therefore represents how much that region’s activity at a given time point deviates from its own mean (in standard-deviation units).
+- From these time series, you can compute **functional connectivity matrices**, where each entry is the **Pearson correlation** between two regions’ time series (also unitless, ranging from –1 to 1).
+
 ---
 
 ## Typical workflow
 
 A typical modelling workflow for this project could be:
 
-1. **Choose a subject**
-   - Select one structural network from `data/DTI/`.
-   - Optionally, select the matching fMRI data from `data/fMRI/`.
+1. **Choose subjects**
+   - Select/average structural networks from `data/DTI/`.
+   - Select the matching fMRI data from `data/fMRI/`.
 
 2. **Load the data**
    - Load the 246 × 246 structural matrix.
@@ -121,7 +143,6 @@ A typical modelling workflow for this project could be:
 
 Using this dataset, students can:
 
-- Investigate how global coupling strength affects the similarity between structural and functional networks.
 - Compare different dynamical models (e.g. linear vs nonlinear) on the same structural scaffold.
 - Explore how network topology (e.g. hubs, modules) shapes simulated functional connectivity.
 - Study subject-to-subject variability:
@@ -129,7 +150,7 @@ Using this dataset, students can:
 - Implement model fitting or optimisation:
   - Adjust parameters to maximise similarity between simulated and empirical functional networks.
 
-The exact tasks, deliverables and evaluation criteria are defined in the course project instructions provided separately.
+The exact tasks, deliverables and evaluation criteria are defined in the course project instructions.
 
 ---
 
