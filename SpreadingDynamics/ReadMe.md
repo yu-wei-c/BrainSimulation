@@ -169,7 +169,9 @@ You can use published work as a guide:
 - **Typical starting (seed) regions**  
   For picking “epicentre” regions where tau pathology starts (e.g. for your initial seeds), you can look at the regions that are involved in the earliest Braak stages in:  
   *Pelkmans W et al. “Tau-related grey matter network breakdown across the Alzheimer’s disease continuum”, Alzheimer’s Research & Therapy (2021), doi: 10.1186/s13195-021-00876-7 (see Supplementary Material).*  
-  These papers show that early tau often starts in medial temporal regions (Braak I–II), and only later spreads to wider association and sensory cortices.
+  These papers show that early tau often starts in medial temporal regions (Braak I–II), and only later spreads to wider association and sensory cortices. As shown in the screenshot, you should be able to map to the atlas we are using (e.g., Amygdala as in AMYG.L and AMYG.R in the atlas xlsx file).
+  <img width="1394" height="466" alt="image" src="https://github.com/user-attachments/assets/12cabe30-f7fd-4805-8089-d3d43fd6834d" />
+
 
 In your project, you can therefore:
 - Pick a Braak stage cut-off (e.g. “include all regions up to Braak III–IV”), and  
