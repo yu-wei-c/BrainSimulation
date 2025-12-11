@@ -194,6 +194,20 @@ Using this dataset, students can:
 
 The exact tasks, deliverables and evaluation criteria are defined in the course project instructions provided separately.
 
+## References
+
+1. Xiao, Y., Spotorno, N., An, L., Bazinet, V., Hansen, J. Y., Strandberg, O., Shafiei, G., Behjat, H. H., Funck, T., Salvadó, G., Stomrud, E., Smith, R., Palmqvist, S., Ossenkoppele, R., Mattsson-Carlgren, N., Palomero-Gallagher, N., Dagher, A., Mišić, B., Hansson, O., & Vogel, J. W. (2025).
+   *Brain network dynamics determine tau presence while regional vulnerability governs tau load in Alzheimer’s disease.*
+   **bioRxiv**. https://doi.org/10.1101/2025.04.17.648358
+
+2. Lee, W. J., Brown, J. A., Kim, H. R., La Joie, R., Cho, H., Lyoo, C. H., Rabinovici, G. D., Seong, J.-K., Seeley, W. W., & Alzheimer’s Disease Neuroimaging Initiative. (2022).
+   Regional Aβ-tau interactions promote onset and acceleration of Alzheimer’s disease tau spreading.
+   **Neuron, 110**(12), 1932–1943.e5. https://doi.org/10.1016/j.neuron.2022.03.034
+
+3. Maran, R., Müller, E. J., & Fulcher, B. D. (2025).
+   Analyzing the brain’s dynamic response to targeted stimulation using generative modeling.
+   **Network Neuroscience, 9**(1), 237–258. https://doi.org/10.1162/netn_a_00433
+
 ---
 
 ## Data usage and restrictions
